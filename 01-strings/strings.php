@@ -8,8 +8,19 @@
 </head>
 <body>
     <pre>
-        line 1
-        line 2
+        <?php 
+
+        $greeting = 'I\'m a string';
+        echo $greeting . '!!!' . ' ' . $greeting;
+        echo '<br />';
+
+        $name ='John';
+        $subject = 'PHP';
+
+        $text = 'I\'m ' . $name . ' and I want to learn the language ' . $subject;
+        echo $text . '!';
+
+        ?>
     </pre>
 </body>
 </html>
