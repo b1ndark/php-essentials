@@ -47,6 +47,29 @@
         var_dump($age != '30');
         var_dump($age != '29');
 
+
+        echo "----\n";
+        $unitsSold = 10;
+
+        $maxLimit = "5";
+
+        echo $unitsSold + $maxLimit;
+        echo "\n----\n";
+        echo $unitsSold * $maxLimit;
+        echo "\n----\n";
+        echo $unitsSold > $maxLimit;
+        echo "\n----\n";
+        echo $unitsSold . $maxLimit;
+
+        echo "\n----\n";
+
+        $amount = -10;
+        $conversionRate = 0.3;
+        var_dump(($amount * $conversionRate) === -3);
+
+        echo "\n----\n";
+        var_dump(-10 * 0.3 === -3);
+
     
     ?></pre>
 </body>
